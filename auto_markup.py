@@ -1,5 +1,6 @@
 import sys, re
 from util import *
+from handlers import HTMLHandler
 
 print('<html><head><title>...</title></head><body>')
 
