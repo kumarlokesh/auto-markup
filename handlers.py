@@ -61,3 +61,5 @@ class HTMLHandler(Handler):
     def sub_email(self, match):
         return '<a href="mailto:{0}">{1}</a>'.format(match.group(1), match.group(1))
 
+    def feed(self, data):
+        print(data)
